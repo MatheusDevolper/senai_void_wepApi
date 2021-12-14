@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using senai_gufi_webApi.Domains;
-using senai_gufi_webApi.Interfaces;
-using senai_gufi_webApi.Repositories;
+using senai_void_webApi.Interfaces;
+using senai_void_webApi.Repositories;
+using senai_void_webApi.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace senai_gufi_webApi.Controllers
+namespace senai_void_webApi.Controllers
 {
     [Produces("application/json")]
     [Route("api/[controller]")]

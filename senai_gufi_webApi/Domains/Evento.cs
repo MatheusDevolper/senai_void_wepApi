@@ -1,10 +1,11 @@
-﻿using System;
+﻿using senai_gufi_webApi.Domains;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 #nullable disable
 
-namespace senai_gufi_webApi.Domains
+namespace senai_void_webApi.Domains
 {
     /// <summary>
     /// Classe que representa a entidade (tabela) de eventos

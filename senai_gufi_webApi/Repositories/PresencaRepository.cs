@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using senai_gufi_webApi.Contexts;
 using senai_gufi_webApi.Domains;
-using senai_gufi_webApi.Interfaces;
+using senai_void_webApi.Contexts;
+using senai_void_webApi.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

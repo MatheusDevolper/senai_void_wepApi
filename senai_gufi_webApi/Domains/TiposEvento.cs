@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using senai_void_webApi.Domains;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 #nullable disable

@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using senai_gufi_webApi.Domains;
-using senai_gufi_webApi.Interfaces;
-using senai_gufi_webApi.Repositories;
-using senai_gufi_webApi.ViewModels;
+using senai_void_webApi.Domains;
+using senai_void_webApi.Interfaces;
+using senai_void_webApi.Repositories;
+using senai_void_webApi.ViewModels;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
-namespace senai_gufi_webApi.Controllers
+namespace senai_void_webApi.Controllers
 {
     /// <summary>
     /// Controller responsável pelos endpoints referentes ao Login

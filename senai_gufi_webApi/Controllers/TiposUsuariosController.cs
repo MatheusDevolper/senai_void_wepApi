@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using senai_gufi_webApi.Domains;
-using senai_gufi_webApi.Interfaces;
-using senai_gufi_webApi.Repositories;
+using senai_void_webApi.Domains;
+using senai_void_webApi.Interfaces;
+using senai_void_webApi.Repositories;
 using System;
 
-namespace senai_gufi_webApi.Controllers
+namespace senai_void_webApi.Controllers
 {
     /// <summary>
     /// Controller responsável pelos endpoints (URLs) referentes aos tipos de usuários
