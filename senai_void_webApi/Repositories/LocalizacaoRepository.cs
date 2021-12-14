@@ -1,12 +1,12 @@
 ﻿using MongoDB.Driver;
-using senai_gufi_webApi.Interfaces;
+using senai_void_webApi.Interfaces;
 using senai_void_webApi.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace senai_gufi_webApi.Repositories
+namespace senai_void_webApi.Repositories
 {
     public class LocalizacaoRepository : ILocalizacaoRepository
     {

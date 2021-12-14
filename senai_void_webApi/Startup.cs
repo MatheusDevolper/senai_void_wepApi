@@ -13,7 +13,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace senai_gufi_webApi
+namespace senai_void_webApi
 {
     public class Startup
     {
@@ -49,7 +49,7 @@ namespace senai_gufi_webApi
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c => {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Gufi.webApi", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Void.webApi", Version = "v1"});
 
                 // Set the comments path for the Swagger JSON and UI.
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
@@ -80,16 +80,16 @@ namespace senai_gufi_webApi
                         ValidateLifetime = true,
 
                         // Forma de criptografia e ainda valida a chave de autentica��o
-                        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("gufi-chave-autenticacao")),
+                        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("void-chave-autenticacao")),
 
                         // Valida o tempo de expira��o do token
                         ClockSkew = TimeSpan.FromMinutes(30),
 
                         // Nome do issuer, de onde est� vindo
-                        ValidIssuer = "gufi.webApi",
+                        ValidIssuer = "void.webApi",
 
                         // Nome do audience, para onde est� indo
-                        ValidAudience = "gufi.webApi"
+                        ValidAudience = "void.webApi"
                     };
                 });
         }
@@ -109,7 +109,7 @@ namespace senai_gufi_webApi
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Gufi.webApi");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Void.webApi");
                 c.RoutePrefix = string.Empty;
             });
 

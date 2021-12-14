@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using senai_gufi_webApi.Domains;
+using senai_void_webApi.Domains;
 
 #nullable disable
 

@@ -1,4 +1,4 @@
-﻿using senai_gufi_webApi.Domains;
+﻿using senai_void_webApi.Domains;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;

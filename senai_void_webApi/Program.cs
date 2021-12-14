@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace senai_gufi_webApi
+namespace senai_void_webApi
 {
     public class Program
     {

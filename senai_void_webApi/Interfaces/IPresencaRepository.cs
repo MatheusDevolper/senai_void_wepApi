@@ -1,4 +1,4 @@
-﻿using senai_gufi_webApi.Domains;
+﻿using senai_void_webApi.Domains;
 using System.Collections.Generic;
 
 namespace senai_void_webApi.Interfaces

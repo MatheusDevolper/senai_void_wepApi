@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace senai_gufi_webApi.ViewModels
+namespace senai_void_webApi.ViewModels
 {
     /// <summary>
     /// Classe responsável pelo modelo de Login

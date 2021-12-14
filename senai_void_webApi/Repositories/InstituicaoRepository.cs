@@ -4,7 +4,7 @@ using senai_void_webApi.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace senai_gufi_webApi.Repositories
+namespace senai_void_webApi.Repositories
 {
     /// <summary>
     /// Classe responsável pelo repositório das instituições

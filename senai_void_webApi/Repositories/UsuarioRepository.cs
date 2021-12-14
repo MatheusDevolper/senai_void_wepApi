@@ -1,10 +1,10 @@
-﻿using senai_gufi_webApi.Domains;
-using senai_gufi_webApi.Interfaces;
+﻿using senai_void_webApi.Domains;
+using senai_void_webApi.Interfaces;
 using senai_void_webApi.Contexts;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace senai_gufi_webApi.Repositories
+namespace senai_void_webApi.Repositories
 {
     /// <summary>
     /// Classe responsável pelo repositório dos usuários
